@@ -39,7 +39,7 @@ def Dragging(event):
 root = Tk()
 root.attributes("-fullscreen", True)
 root.attributes("-topmost", True)
-filename = PhotoImage(file ="../../bg.png")
+filename = PhotoImage(file ="bg.png")
 
 def retrieve_input():
     inputValue=textBox.get("1.0","end-1c")
