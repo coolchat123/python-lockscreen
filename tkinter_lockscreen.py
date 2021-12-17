@@ -67,7 +67,7 @@ background_label = Label(image=filename)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
 textBox=Text(root, height=2, width=10)
 textBox.pack()
-textBox.place(relx=0.5, rely=0.5, anchor=CENTER)
+textBox.place(relx=0.5, rely=0.5, anchor=CENTER, width=200, height= 26)
 buttonCommit=Button(root, height=1, width=10, text="Commit",
                     command=lambda: retrieve_input())
 
